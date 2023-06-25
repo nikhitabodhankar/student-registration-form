@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        body{
+            overflow-x: hidden;
+        }
+        fieldset{
+            height: 600px;
+            width: 350px;
+            position: relative;
+            left: 700px;
+            position: relative;
+            top: 72px;
+            background-image: url("sandip-karangiya-xhicmCpiATo-unsplash.jpg");
+            font-family: cursive;
+        }
+        .container{
+            text-align: center;
+            position: relative;
+            top: 30px;
+        }
+        img{
+            height: 600px;
+            width: 350px;
+            position: relative;
+            bottom: 533px;
+            position: relative;
+            left: 110px;
+            margin-left: 240px;
+        }
+        h1{
+            text-align: center;
+            position: relative;
+            top: 45px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <div class="all">
+    <div class="bgimg">
+    <form>
+        <fieldset>
+            <legend>Personal Info</legend>
+            <div class="container">
+        <div class="firstname">
+            First Name: <i class="fa fa-user"></i> <input type="text" placeholder="Enter first name">
+        </div>
+        <br>
+        <div class="lastname">
+            Last Name: <i class="fa fa-user"></i> <input type="text" placeholder="Enter last name">
+        </div>
+        <br>
+        <div class="deptoffice">
+            Dept/Office:  <i class="fa fa-bars"></i> <input type="text" placeholder="Select dept/office">
+        </div>
+        <br>
+        <div class="username">
+            Username: <i class="fa fa-user"></i> <input type="text" placeholder="Enter username">
+        </div>
+        <br>
+        <div class="password">
+            Password: <i class="fa fa-user"></i> <input type="password" placeholder="Enter password">
+        </div>
+        <br>
+        <div class="confirmpassword">
+            Confirm Password: <i class="fa fa-user"></i> <input type="password" placeholder="Confirm password">
+        </div>
+        <br>
+        <div class="email">
+            Email: <i class="fa fa-envelope"> </i> <input type="email" placeholder="Enter email">
+        </div>
+        <br>
+        <div class="date">
+            Date: <input type="date">
+        </div>
+        <br>
+        <div class="contactno">
+            Contact No: <i class="fa fa-phone-square"></i> <input type="number" placeholder="Enter contact no">
+        </div>
+        <br>
+        <div>Gender : <i class="fa fa-mars"></i> Male<input type="radio" name="urgender"><i class="fa fa-venus"></i> Female<input type="radio" name="urgender"><i class="fa fa-transgender"></i> Other<input type="radio" name="urgender"></div>
+        <br>
+        <div>
+        <input type="submit" value="Submit Now">
+        </div>
+        </div>
+        </fieldset>
+        </form>
+        </div>
+
+        <div class="studygirl">
+        <img src="study girl.jpg" alt="study girl">
+        </div>
+    
+</body>
+</html>
